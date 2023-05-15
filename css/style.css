@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  color: #FFFFFF;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #060708;
+}
+body #login-section {
+  background: #131619;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body form input {
+  background: #1A1D21;
+  box-shadow: 0px 0px 0px 4px rgba(132, 220, 245, 0.24);
+  border-radius: 0.8rem;
+  min-height: 4.8rem;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+
+.linearGradient {
+  background: linear-gradient(45deg, #4D62E5 0%, #87DDEE 45.31%, #B6F09C 100%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}/*# sourceMappingURL=style.css.map */
